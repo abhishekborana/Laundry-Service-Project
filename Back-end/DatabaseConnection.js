@@ -1,5 +1,5 @@
-const mongoose = require("mongoose")
-const DB ="mongodb+srv://Sneha:laundryproject@cluster0.ucp6o.mongodb.net/Laundry?retryWrites=true&w=majority"
+const mongoose = require("mongoose");
+const DB ="";
 mongoose.connect(DB,{
     useNewUrlParser:true,
     useUnifiedTopology:true,
